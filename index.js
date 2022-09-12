@@ -1,3 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <script src='securepubads.g.doubleclick.net/tag/js/gpt.js'/>
+   
+   <script src='googletagservices.com/tag/js/gpt.js'/>
+    <script src='pagead2.googlesyndication.com/pagead/show_ads.js'/>
+    <!-- Ezoic Code -->
+	<script>var ezoicId = 377690;</script>
+	<script src='//go.ezoic.net/ezoic/ezoic.js' type='text/javascript'/>
+<!-- Ezoic Code -->
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:view.title.escaped/></title>
+    <b:include data='blog' name='all-head-content'/>
+
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,5 +40,5 @@
 const path = require('path');
 
 module.exports = {
-    dirname: path.join(__dirname, 'template_src')
+    dirname: path.join(__dirname, 'template_src/www')
 };
